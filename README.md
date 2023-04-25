@@ -1,5 +1,5 @@
 # Web-Development-Projects
-repositorio de proyectos de desarrollo web
+Repositorio de proyectos de desarrollo web
 # Proyecto 1: Página Web Interactiva
 ## Descripción
 Este proyecto consiste en la creación de una página web interactiva que permita al usuario mover objetos en la pantalla y acomodarlos a su gusto. Para ello, se enseñará a crear un pequeño código que se podrá aplicar a cualquier objeto simplemente agregándole una clase.
