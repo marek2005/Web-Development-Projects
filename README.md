@@ -1,4 +1,4 @@
-# Web-Development-Peojects
+# Web-Development-Projects
 repositorio de proyectos de desarrollo web
 # Proyecto 1: Página Web Interactiva
 ## Descripción
