@@ -1,0 +1,77 @@
+/* este keyframe lo unico que hace es pasar de invisible a visible */
+@keyframes loaderOpacidad {
+    from {
+      opacity: 0;
+    }
+  
+    to {
+      opacity: 1;
+    }
+  }
+  
+  /* a todos los cuadrados les doy este formato */
+  .cuadrado {
+    background: #ddd;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -5px;
+    margin-left: -5px;
+  }
+  
+  
+  /* 
+    de aqui hasta el final, solo posiciono los cuadrados uno por uno 
+    y les pongo una animacion que haga que el keyframe dure 675 milisegundos
+    que acelere y desacelere,que cada cubo comienze 75 frames adelante de otro
+    y que la animacion sea infinita  
+  */
+  #c1 {
+    margin-top: -25px;
+    margin-left: -25px;
+    animation: loaderOpacidad 675ms ease-in-out 0s infinite alternate;
+  }
+  
+  #c2 {
+    margin-top: -25px;
+    animation: loaderOpacidad 675ms ease-in-out 75ms infinite alternate;
+  }
+  
+  #c3 {
+    margin-top: -25px;
+    margin-left: 15px;
+    animation: loaderOpacidad 675ms ease-in-out 150ms infinite;
+  }
+  
+  #c4 {
+    margin-left: -25px;
+    animation: loaderOpacidad 675ms ease-in-out 225ms infinite;
+  }
+  
+  #c5 {
+    animation: loaderOpacidad 675ms ease-in-out 300ms infinite;
+  }
+  
+  #c6 {
+    margin-left: 15px;
+    animation: loaderOpacidad 675ms ease-in-out 375ms infinite;
+  }
+  
+  #c7 {
+    margin-top: 15px;
+    margin-left: -25px;
+    animation: loaderOpacidad 675ms ease-in-out 450ms infinite;
+  }
+  
+  #c8 {
+    margin-top: 15px;
+    animation: loaderOpacidad 675ms ease-in-out 525ms infinite;
+  }
+  
+  #c9 {
+    margin-top: 15px;
+    margin-left: 15px;
+    animation: loaderOpacidad 675ms ease-in-out 600ms infinite;
+  }
